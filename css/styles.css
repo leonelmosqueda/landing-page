@@ -100,6 +100,7 @@ a {
 .information {
     margin-top: 3em;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 .header-information {
@@ -125,10 +126,37 @@ a {
     flex-wrap: wrap;
     font-size: 18px;
     color: #636b77;
+    padding: 0 1em
 }
 
 .container-info {
     display: flex;
     justify-content: center;
     gap: 52px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 10.5em 24em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.quote-text {
+    color: #1F2937;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-autor {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
 }
