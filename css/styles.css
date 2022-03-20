@@ -66,7 +66,7 @@ a {
 .main-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     margin-bottom: 0.1em;
 }
 
@@ -82,7 +82,7 @@ a {
     background-color: #3882F6;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .placeholder-image {
@@ -93,4 +93,40 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.header-information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 1.5em;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.picture-frame {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid 4px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.subtext-info {
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #636b77;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
