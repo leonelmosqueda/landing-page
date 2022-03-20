@@ -56,7 +56,9 @@ a {
 
 .hero-left-container {
     flex-wrap: wrap;
-    padding: 0 5em;
+    padding-right: 8em;
+    margin-right: 1em;
+    /* padding: 0 5em; */
 }
 
 .hero-right-container {
