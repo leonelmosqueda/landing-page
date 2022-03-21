@@ -58,7 +58,6 @@ a {
     flex-wrap: wrap;
     padding-right: 8em;
     margin-right: 1em;
-    /* padding: 0 5em; */
 }
 
 .hero-right-container {
@@ -140,7 +139,7 @@ a {
     padding: 10.5em 24em;
     display: flex;
     flex-direction: column;
-    margin-top: 4em;
+    margin: 4em 0;
 }
 
 .quote-text {
@@ -159,4 +158,31 @@ a {
     justify-content: end;
     margin: 0;
     padding: 0;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 9em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    border: white solid;
 }
